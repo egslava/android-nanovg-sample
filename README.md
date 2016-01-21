@@ -21,7 +21,7 @@ Generally, it's based on Google Samples app, but:
 App demonstrates OpenGL integration as a GLSurfaceView-component into a casual Android app. It shows disatvantages of this and tells about disatvantages of other methods. For gesture processing it uses Android SDK way, and applies transformations manually (without using vertex shader).
 
 -----------
-![screencast](screencast.gif)
+![screencast](screencast.gif =500x)
 
 License
 -------

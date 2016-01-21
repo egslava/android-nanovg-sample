@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="ru.egslava.hello_nanovg.MainActivity"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true">
+
+        <TextView
+            android:visibility="invisible"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:id="@+id/about_me"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Я - треугольник! Нарисованный с помощью OpenGL ES 2! На этом экране я такой один. И, если честно, то это немного угнетает..."
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"/>
+        <FrameLayout
+            android:visibility="invisible"
+            android:id="@+id/gl_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ru.egslava.hello_nanovg.triangle.TriangleView
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+        </FrameLayout>
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мне плохо, покрути меня, пожалуйста :-("
+            android:id="@+id/im_bad"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+        <SeekBar
+            android:visibility="invisible"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:progress="180000"
+            android:max="359999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rotation"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+            <!--android:stateListAnimator=""-->
+        <TextView
+            android:visibility="gone"
+            android:textSize="12sp"
+            android:id="@+id/additional_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/final_text"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            />
+    </LinearLayout>
+</ScrollView>
+

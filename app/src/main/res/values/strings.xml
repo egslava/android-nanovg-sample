@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<!-- This file contains resource definitions for displayed strings, allowing
+     them to be changed based on the locale and options. -->
+
+<resources>
+    <!-- Simple strings. -->
+    <string name="gl2jni_activity">viacheslav.egorenkov - тестовое задание</string>
+    <string name="title_activity_main">GLES2-треугольник</string>
+    <string name="action_settings">Settings</string>
+    <string name="final_text">Спасибо! :-) Стало намного лучше! И, мне кажется, что я - довольно неплох, хотя и не без недостатков. С одной стороны, я стараюсь быть похожим на остальные компоненты - реагирую на жесты флинга и свайпа, вписываюсь в гамму, объявлен в layout\'е. С другой стороны - я лучше, т.к. могу использовать всю мощь C++ для самореализации :-)\n\nТем не менее, для того, чтобы запускаться на старых версиях Android\'а, <i><u>мне приходится использовать GLSurfaceView. Это плохо, т.к., при перемещении меня по экрану, появляются тёмные полоски</u></i> (особенно хорошо это видно сейчас, при анимации и когда появилась возможность проскроллить содержимое экрана). \n\nЭх, если бы моим родителем был TextureView... Такого недостатка бы не было, но я бы был совместим только с 14-ой версией API... \n\nВ общем, <i>я не так уж и плох, если меня использовать правильно</i> и, по дизайну, не позволять меня вертеть другим элементам!\n\n<b>Спасибо за внимание!</b></string>
+
+</resources>
+

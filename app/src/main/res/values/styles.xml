@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FAF</item>
+        <item name="colorPrimaryDark">#909</item>
+        <item name="colorAccent">#FCF</item>
+        <!--<item name="android:textViewStyle">@style/DefaultTextViewStyle</item>-->
+        <!--<item name="android:editTextStyle">@style/DefaultTextViewStyle</item>-->
+        <!--<item name="android:actionBarStyle">@style/ABStyle</item>-->
+    </style>
+
+    <color name="white">#FFFFFF</color>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

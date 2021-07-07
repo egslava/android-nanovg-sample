@@ -100,3 +100,4 @@ podcasts-android.iml
 vksdk_library/vksdk_library.iml
 
 /captures
+**/.externalNativeBuild
